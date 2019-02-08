@@ -33,8 +33,8 @@ async function main() {
   console.log(`Created new user: ${newUser.name} (ID: ${newUser.id})`);*/
 
   // Read messages by clientId from the database and print them to the console
-  const clientMessage = await prisma.message({
-    clientId: 1235,
+  const clientMessage = await prisma.messages({
+    where: { clientId: 1235 },
   });
   console.log(clientMessage);
 }
