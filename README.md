@@ -10,7 +10,17 @@
 
 ## Launch Prisma with Docker
 
-    `docker-compose up -d`
+Move in prisma folder and after run this command:
+`docker-compose up -d`
+
+## Deploy Prisma datamodel
+
+Move in prisma folder and after run this command:
+`prisma deploy`
+
+## Run script
+
+Execute the script with this command: `npm run start`
 
 ## Our endpoint
 
